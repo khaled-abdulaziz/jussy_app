@@ -144,7 +144,7 @@ def dashboard():
                 df_original['status'] = 'online'
                 df_original['Location'] = 'Tuban'
 
-                desired_order = ['date', 'type', 'quantity', 'total price', 'status', 'Location']
+                desired_order = ['date', 'type', 'quantity', 'total_price', 'status', 'Location']
                 df_original = df_original[desired_order]
                 df_original.reset_index(inplace=True)
 
@@ -380,6 +380,7 @@ if not st.session_state.logged_in:
     login_page()
 else:
     dashboard()
+
 
 
 
