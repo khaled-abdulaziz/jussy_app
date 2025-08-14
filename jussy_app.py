@@ -15,7 +15,7 @@ def get_connection():
         host="localhost",
         user="root",
         password="12345",
-        database="login_system"
+        database="ba0mx3pvehwmtznxzgtg"
     )
 
 # ----------- Verify login credentials -----------
@@ -379,3 +379,4 @@ if not st.session_state.logged_in:
     login_page()
 else:
     dashboard()
+
