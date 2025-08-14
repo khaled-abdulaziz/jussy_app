@@ -3,4 +3,5 @@ pandas
 plotly
 pillow
 mysql-connector-python
+bcrypt
 openpyxl
